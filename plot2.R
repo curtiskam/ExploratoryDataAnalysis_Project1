@@ -14,7 +14,7 @@ Time <- strptime(paste(subSet$Date, SubSet$Time, sep=" "), "%d/%m/%Y %H:%M:%S")
 GlobalActivePower <- as.numeric(SubSet$Global_active_power)
 
 #Assign Filename for Output
-png("plot2.png", width=800, height=800)
+png("plot2.png", width=480, height=480)
 
 # Plot Line for Global Acitive Power
 plot(Time, GlobalActivePower, type="l", xlab="", ylab="Global Active Power (kilowatts)")
