@@ -23,7 +23,7 @@ SubMetering2 <- as.numeric(SubSet$Sub_metering_2)
 SubMetering3 <- as.numeric(SubSet$Sub_metering_3)
 
 ##Asign Filename for Output
-png("plot3.png", width=480, height=480)
+png("plot3.png", width=800, height=800)
 
 ##Graph Energy Submetering1 in Black
 plot(Time, SubMetering1, type="l", ylab="Energy Submetering", xlab="")

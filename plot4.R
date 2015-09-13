@@ -29,7 +29,7 @@ GlobalReactivePower <- as.numeric(subSet$Global_reactive_power)
 Voltage <- as.numeric(subSet$Voltage)
 
 ##Set Output File Name
-png("plot4.png", width=480, height=480)
+png("plot4.png", width=800, height=800)
 
 ##Set graphs 2x2 by Rows
 par(mfrow = c(2, 2)) 
